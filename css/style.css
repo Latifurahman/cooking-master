@@ -99,7 +99,7 @@ body {
 }
 
 
-#food-item-ingredient {
+.food-details {
     margin-left: 31%;
     margin-bottom: 30px;
     background-color: #fff;
@@ -111,7 +111,7 @@ body {
     -o-border-radius: 10px;
 }
 
-#food-item-ingredient img {
+.food-details img {
     border-radius: 10px 10px 0 0;
     width: 570px;
     height: 400px;
@@ -122,12 +122,12 @@ body {
     -o-border-radius: 10px 10px 0 0;
 }
 
-#food-item-ingredient h1 {
+.food-details h1 {
     margin-bottom: 15px;
     padding-left: 20px;
 }
 
-#food-item-ingredient h3 {
+.food-details h3 {
     color: #3B2D64;
     font-weight: 700;
     margin-bottom: 15px;
@@ -135,7 +135,7 @@ body {
     padding-left: 20px;
 }
 
-#food-item-ingredient h5 {
+.food-details h5 {
     color: #a4a1a1d9;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -145,4 +145,67 @@ body {
     display: flex;
     justify-content: center;
     color: rgb(248, 88, 88);
+}
+
+.food-item{
+    text-align: center;
+}
+.recipe-btn{
+    cursor: pointer;
+    border: 1px solid #EDD263;
+    border-radius: 5px;
+    background-color: #dab10e;
+    color: #fff;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.recipe-btn:hover{
+    color: #dab10e;
+    border: 1px solid #dab10e;
+    background-color: #fff;
+}
+
+.recipe-details-div{
+    background-color: #ddd;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    display: inline-block;
+    border-radius: 5px 0 5px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px 0 5px 0;
+    -ms-border-radius: 5px 0 5px 0;
+    -o-border-radius: 5px 0 5px 0;
+}
+.recipe-details-div img{
+    height: 400px;
+    width: 405px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+
+.recipe-details-div h3,h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 380px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.recipe-details-div h6{
+    font-size: 16px;
+    color: #dab10e;
+    margin-bottom: 10px;
+}
+.recipe-details-div p{
+    margin-left: 5px;
+     width: 400px;
+    color: rgb(122, 120, 120);
+    margin-bottom: 5px;
 }
